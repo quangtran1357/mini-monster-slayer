@@ -5,7 +5,8 @@ const app = Vue.createApp({
       monsterHeart: 100,
       userDamage: 20,
       monsterDamage: 15,
-      isFighting: false
+      isFighting: false,
+      gameOver: false
     };
   },
   methods: {
