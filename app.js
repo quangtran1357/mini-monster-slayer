@@ -6,7 +6,8 @@ const app = Vue.createApp({
       userDamage: 20,
       monsterDamage: 15,
       isFighting: false,
-      gameOver: false
+      gameOver: false,
+      level: ''
     };
   },
   methods: {
@@ -20,6 +21,9 @@ const app = Vue.createApp({
     monsterAttack() {
       this.userHeart -= this.monsterDamage
       this.isFighting = false
+    },
+    selectLevel(level) {
+      this.level = level
     }
   }
 });
