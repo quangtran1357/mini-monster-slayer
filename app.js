@@ -6,6 +6,7 @@ const app = Vue.createApp({
       userDamage: 20,
       monsterDamage: 15,
       isFighting: false,
+      gameOver: false,
       level: ''
     };
   },
